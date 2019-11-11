@@ -8,9 +8,7 @@ function fetchProducts() {
         .then(json => {
             document
                 .querySelector('#productsContainer')
-                .innerHTML = json.map(product => '
-                <li>${product.name}: ${product.price}</li>
-                ').join('')
+                .innerHTML = json.map(product => '<li>${product.name}: ${product.price}</li>').join('')
         
         });
 }
