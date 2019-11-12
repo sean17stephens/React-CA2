@@ -1,9 +1,34 @@
 @import "partials/_variables.scss";
 
 h1{
-    color: $base-color;
+    color: $teal;
+    font-family: $pacifico;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 body{
-    background: red;
+    background: $salmon;
+}
+
+p{
+    font-family: $quicksand;
+    background-color: $orange;
+    text-align: center;
+}
+
+#products{
+    font-family: $ubuntu;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: $orange; 
+    li{
+        list-style: none;
+        padding-top: 20px; 
+    }
+    p{
+        font-family: $quicksand;
+        font-size: 12px;
+    }
 }

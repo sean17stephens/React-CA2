@@ -1,8 +1,36 @@
+/* RGB */
 h1 {
-  color: #c6538c;
+  color: #19736a;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 body {
-  background: red;
+  background: #ed6a5e;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  background-color: #ff8e72;
+  text-align: center;
+}
+
+#products {
+  font-family: "Ubuntu Mono", monospace;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ff8e72;
+}
+
+#products li {
+  list-style: none;
+  padding-top: 20px;
+}
+
+#products p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 12px;
 }
 /*# sourceMappingURL=main.css.map */
