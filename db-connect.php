@@ -1,8 +1,8 @@
 <?php
 
 $db_name = 'sean_products';
-$db_user = 'ss17';
-$db_pass = 'YES';
+$db_user = 'root';
+$db_pass = '';
 try{
 $db      = new PDO("mysql:host=localhost;dbname=$db_name;charset=utf8mb4", $db_user, $db_pass);
 
